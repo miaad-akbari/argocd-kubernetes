@@ -5,10 +5,9 @@ Prerequisites
 
 Before deploying ArgoCD, you should ensure that you have the following prerequisites installed:
 
-    A Kubernetes cluster
-    kubectl CLI tool installed
-    helm CLI tool installed
-    A domain name or IP address to access the ArgoCD UI
+ A Kubernetes cluster
+ kubectl CLI tool installed
+ A domain name or IP address to access the ArgoCD UI
 
 Installation
 
@@ -29,7 +28,7 @@ Open your web browser and navigate to https://{argocd.example.com}. Log in with 
 
 Customization
 
-The Helm chart includes a number of configurable options that can be used to customize the ArgoCD deployment. Refer to the ArgoCD Helm Chart documentation for a full list of options.
+The manifest file includes a number of configurable options that can be used to customize the ArgoCD deployment. Refer to the ArgoCD documentation for a full list of options.
 Best Practices
 
 To ensure a secure and reliable deployment of ArgoCD, follow these best practices:
@@ -42,7 +41,7 @@ To ensure a secure and reliable deployment of ArgoCD, follow these best practice
 
 Troubleshooting
 
-If you encounter any issues during the installation or operation of ArgoCD, refer to the ArgoCD documentation or the ArgoCD Helm Chart documentation for troubleshooting steps.
+If you encounter any issues during the installation or operation of ArgoCD, refer to the ArgoCD documentation or the ArgoCD documentation for troubleshooting steps.
 Contributing
 
 If you would like to contribute to this project, please feel free to submit a pull request or open an issue on GitHub.
