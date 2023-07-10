@@ -22,6 +22,8 @@ You should see one or more pods with a name starting with argocd-server.
 
 Access the ArgoCD UI:
 
+    kubectl apply -f ingress.yaml
+
 Open your web browser and navigate to https://{argocd.example.com}. Log in with the default username admin and the password that can be retrieved with:
 
     kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d
